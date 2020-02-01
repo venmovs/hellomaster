@@ -1,0 +1,46 @@
+.modal{
+  position: relative;
+  padding: 33px 0 32px 0;
+  margin-top: 15px;
+  width: 100%;
+  min-height: 400px;
+  background-color: #d7e6f0;
+  &__text{
+    color: rgba(4, 31, 61, 0.5);
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+}
+.wrapper__answers{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no{
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  background-blend-mode: lighten;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: -5px -5px 8px rgba(255, 255, 255, 0.4), 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.yes{
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  background-blend-mode: lighten;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: -5px -5px 8px rgba(255, 255, 255, 0.4), 4px 4px 8px rgba(0, 0, 0, 0.3);
+}

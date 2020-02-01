@@ -1,0 +1,45 @@
+.sign{
+  min-height: 500px;
+  padding-top: 10px;
+  &__data{
+    margin-top: 20px;
+    margin-bottom: 6px;
+    color: #041f3d;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+  }
+  &__wrapper{
+    margin: 0 auto;
+    min-height: 120px;
+    padding: 10px;
+    width: 300px;
+    background: linear-gradient(90deg, #EFF7FD 0%, #D7E6F0 100%);
+    border-radius: 20px;
+  }
+  &__timers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__box{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 40px;
+    height: 25px;
+    background: linear-gradient(90deg, #EDEDED 0%, #FFFFFF 100%);
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  &__time{
+    color: #000000;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+  }
+}

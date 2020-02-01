@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<!--РЕГИСТРАЦИЯ-->
+
+<section class="registration">
+
+    <div class="registration__wrapper">
+        <div class="tittle">Регистрация</div>
+        <form class="feed-form" action="#">
+            <input required placeholder="Имя" type="text">
+            <input required placeholder="Телефон" type="tel">
+            <button class="button">Регистрация</button>
+        </form>
+    </div>
+</section>
+
+<!--
+ДОБАВЛЕНИЕ УСЛУГ 1 этап
+-->
+
+<section class="service_menu">
+    <div class="menu">
+        <div class="menu__tittle">
+            <div class="tittle">Добавление услуг</div>
+            <div class="tittle__sub">редактируйте и добавляйте услуги</div>
+        </div>
+        <div class="menu__round">
+            <div class="round">
+                <div class="round__point"></div>
+                <div class="round__point"></div>
+                <div class="round__point"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="service__box service__box__big">
+        <div class="service__box_tittle">
+            Маникюр
+        </div>
+        <div class="service__box_descr">
+            Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+            "рыбой" для текстов на латинице с начала XVI века.
+        </div>
+        <div class="service__box_time service__box_time__big">
+            Длительность услуги - 1 час
+        </div>
+        <div class="service__box_editor">  <!--кнопка редактор-->
+            <img src="img/editor.svg" alt="editor" class="editor_img">
+        </div>
+    </div>
+    <div class="service__box service__box__big">
+        <div class="service__box_tittle">
+            Маникюр
+        </div>
+        <div class="service__box_descr">
+            Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+            "рыбой" для текстов на латинице с начала XVI века.
+        </div>
+        <div class="service__box_time service__box_time__big">
+            Длительность услуги - 1 час
+        </div>
+        <div class="service__box_editor">  <!--кнопка редактор-->
+            <img src="img/editor.svg" alt="editor" class="editor_img">
+        </div>
+    </div>
+    <div class="service__box service__box__big">
+        <div class="service__box_tittle">
+            Маникюр
+        </div>
+        <div class="service__box_descr">
+            Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+            "рыбой" для текстов на латинице с начала XVI века.
+        </div>
+        <div class="service__box_time service__box_time__big">
+            Длительность услуги - 1 час
+        </div>
+        <div class="service__box_editor">  <!--кнопка редактор-->
+            <img src="img/editor.svg" alt="editor" class="editor_img">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-1 offset-8 col-md-1 offset-md-7">
+                <div class="add_service">
+                    <img src="img/add.svg" alt="add" class="plus_img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="button">Дальше</button>
+
+
+</section>
+
+<!--
+ДОБАВЛЕНИЕ УСЛУГ 2 этап
+-->
+
+<section class="service">
+    <div class="modal">
+        <div class="menu">
+            <div class="menu__tittle">
+                <div class="tittle">Добавление услуг</div>
+                <div class="tittle__sub">редактируйте и добавляйте услуги</div>
+            </div>
+            <div class="menu__round">
+                <div class="round">
+                    <div class="round__point"></div>
+                    <div class="round__point"></div>
+                    <div class="round__point"></div>
+                </div>
+            </div>
+        </div>
+        <form class="feed-form" action="#">
+            <input required placeholder="Название" type="text">
+            <div class="modal__text">Длительность</div>
+            <input class="timer" required type="time">
+            <input required placeholder="Описание" type="text">
+            <input required placeholder="Адрес" type="text">
+            <div class="modal__text">Время работы</div>
+        </form>
+        <form action="#" class="feed-form feed-form_range">
+            <input class="timer_range" required type="time">
+            <input class="timer_range" required type="time">
+        </form>
+        <div class="wrapper__answers">
+            <div class="no">
+                <img src="img/no.svg" alt="no" class="no__img">
+            </div>
+            <div class="yes">
+                <img src="img/yes.svg" alt="yes" class="yes__img">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+ЛИЧНЫЙ КАБИНЕТ
+-->
+
+<!--<section class="cabinet">
+    <div class="tittle">личный кабинет</div>
+    <button class="button button_blue">услуги</button>
+    <button class="button button_blue">профиль</button>
+    <button class="button button_blue">записи</button>
+    <div class="cabinet__link">
+        <img src="img/copy.png" alt="copy" class="cabinet__copy">
+        <a class="cabinet__a" href="#">скопировать ссылку</a>
+    </div>
+</section>-->
+
+<!--
+ВЫБОР ВРЕМЕНИ
+-->
+
+<section class="sign">
+    <div class="menu">
+        <div class="menu__tittle">
+            <div class="tittle">Выберите мастера</div>
+            <div class="tittle__sub">и запишитесь на сеанс</div>
+        </div>
+        <div class="menu__round">
+            <div class="round">
+                <div class="round__point"></div>
+                <div class="round__point"></div>
+                <div class="round__point"></div>
+            </div>
+        </div>
+    </div>
+    <div class="sign__data">27 декабря, понедельник</div>
+    <div class="sign__wrapper">
+        <!--
+                время
+        -->
+        <div class="sign__timers">
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+            <div class="sign__box">
+                <div class="sign__time">00:00</div>
+            </div>
+        </div>
+        <!--
+                время
+        -->
+        <form class="feed-form feed-form_small" action="#">
+            <input required placeholder="Имя" type="text">
+            <input required placeholder="Телефон" type="tel">
+            <button class="button button_small">записаться</button>
+        </form>
+    </div>
+</section>
+
+<!--
+Выбор услуги
+-->
+
+<section class="choose_service">
+    <!-- Это модуль меню в начале каждой страницы -->
+    <div class="menu">
+        <div class="menu__tittle">
+            <div class="tittle">Выберите услугу</div>
+            <div class="tittle__sub">и запишитесь к мастеру</div>
+        </div>
+        <div class="menu__round">
+            <div class="round">
+                <div class="round__point"></div>
+                <div class="round__point"></div>
+                <div class="round__point"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Это конец модуля меню в начале каждой страницы -->
+
+    <div class="service__box">
+        <div class="service__box_tittle">
+            Маникюр
+        </div>
+        <div class="service__box_descr">
+            Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+            "рыбой" для текстов на латинице с начала XVI века.
+        </div>
+        <div class="service__box_time">
+            Длительность услуги - 1 час
+        </div>
+    </div>
+
+    <!-- второй блок -->
+
+    <div class="service__box">
+        <div class="service__box_tittle">
+            Маникюр
+        </div>
+        <div class="service__box_descr">
+            Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+            "рыбой" для текстов на латинице с начала XVI века.
+        </div>
+        <div class="service__box_time">
+            Длительность услуги - 1 час
+        </div>
+    </div>
+
+    <!-- 3 блок -->
+
+    <div class="service__box service__box_active">
+        <div class="service__box_tittle">
+            Маникюр
+        </div>
+        <div class="service__box_descr">
+            Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+            "рыбой" для текстов на латинице с начала XVI века.
+        </div>
+        <div class="service__box_time">
+            Длительность услуги - 1 час
+        </div>
+    </div>
+
+    <button class="button">Дальше</button>
+</section>
+
+
+<!--
+Главная страница
+-->
+
+<section class="main-page">
+
+    <!--
+        1 страница на главной
+    -->
+    <div class="phone_wrapper">
+        <div class="phone_wrapper__tittle">
+            Сервис онлайн-записи <br>
+            «hello master»
+        </div>
+        <div class="phone_wrapper__tittle__sub">
+            Сделайте запись к вам удобнее и быстрее!
+        </div>
+        <!--
+                    Круглые аватарки
+        -->
+        <img src="img/woman_avatar.svg" alt="avatar" class="round_img">
+        <img src="img/man_avatar.svg" alt="avatar" class="round_img_1">
+        <img src="img/woman_avatar_1.svg" alt="avatar" class="round_img_2">
+        <img src="img/man_avatar_1.svg" alt="avatar" class="round_img_3">
+        <img src="img/woman_avatar_2.svg" alt="avatar" class="round_img_4">
+        <img src="img/man_avatar_2.svg" alt="avatar" class="round_img_5">
+        <img src="img/woman_avatar3.svg" alt="avatar" class="round_img_6">
+        <img src="img/man_avatar_3.svg" alt="avatar" class="round_img_7">
+        <img src="img/woman_avatar_4.svg" alt="avatar" class="round_img_8">
+        <!--
+            Круглые аватарки
+        -->
+
+
+        <button class="button button__main-page">Попробовать бесплатно</button>
+        <div class="white-bg"></div>
+    </div>
+
+
+</section>
+
+<!--<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<script src="js/script.js"></script>
+</body>
+</html>

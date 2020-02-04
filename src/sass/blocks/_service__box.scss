@@ -6,8 +6,7 @@
 .service {
   &__box {
     position: relative;
-    width: 290px;
-    min-height: 137px;
+    width: calc(100% - 20px);
     margin: 10px auto 10px;
     box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
@@ -15,7 +14,6 @@
     padding: 10px;
 
     &__big{
-      min-height: 180px;
     }
 
     &_tittle {

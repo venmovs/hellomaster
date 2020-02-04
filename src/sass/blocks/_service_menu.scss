@@ -3,6 +3,8 @@
   position: relative;
 }
 .add_service{
+  position: absolute;
+  right: 20px;
   width: 40px;
   height: 40px;
   display: flex;
@@ -11,7 +13,4 @@
   background: linear-gradient(90deg, #FF7A00 0%, #FF421F 100%);
   box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-}
-.plus_img{
-
 }

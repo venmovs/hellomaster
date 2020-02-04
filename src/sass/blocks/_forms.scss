@@ -1,10 +1,11 @@
 .feed-form{
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 290px;
+  width: calc(100% - 20px);
   margin: 15px auto 0;
   &_small{
-    width: 250px;
+    width: calc(100% - 20px);
   }
   &_range{
     margin-top: 0;
@@ -36,7 +37,7 @@
     line-height: 16px;
     text-align: center;
     &_range{
-      width: 140px;
+      width: calc(50% - 10px);
       height: 50px;
       background-color: #ffffff;
       text-align: center;

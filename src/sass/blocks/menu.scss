@@ -3,7 +3,7 @@
 
 .menu{
   display: flex;
-  width: 290px;
+  width: calc(100% - 20px);
   justify-content: space-between;
   margin: 0 auto 20px;
   &__tittle{

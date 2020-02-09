@@ -1,0 +1,140 @@
+.instagram {
+  height: 100vh;
+
+  &__wrapper {
+    width: 290px;
+    height: 227px;
+    margin: 20px auto 0;
+    padding: 10px;
+
+    background: linear-gradient(128.34deg, #F9F9F9 0.64%, #FFFFFF 100%);
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 20px 0 0;
+    &_tittle{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 31px;
+      text-align: center;
+      color: #000000;
+    }
+    &__followers_image{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 15px;
+    }
+  }
+  .stat_and_button_wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .stat_wrapper{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .digits{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    &_under{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 15px;
+      text-align: center;
+
+      color: #878787;
+    }
+  }
+  .img__inst-avatar{
+    width: 61px;
+    height: 61px;
+    border-radius: 100%;
+  }
+  .instagram-buttons__wrapper{
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .instagram-button{
+    width: 159px;
+    height: 18px;
+    background: #2D80EC;
+    border-radius: 2px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    color: white;
+    text-align: center;
+    &:focus{
+      outline: none;
+    }
+    &__small{
+      width: 20px;
+      height: 18px;
+      background: #2D80EC;
+      border-radius: 2px;
+      border: none;
+      margin-left: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+
+  .instagram__descr{
+    margin-top: 12px;
+    &_name{
+      margin-top: 2px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 9px;
+      line-height: 12px;
+
+      color: #000000;
+    }
+    &_descr{
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 12px;
+
+      color: #878787;
+    }
+    &_link{
+      margin-top: 2px;
+
+      font-style: normal;
+      font-weight: 500;
+      font-size: 9px;
+      line-height: 12px;
+
+      color: #000000;
+    }
+    &_country{
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 10px;
+
+      color: #032554;
+
+    }
+  }
+}

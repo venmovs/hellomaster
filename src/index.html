@@ -20,7 +20,9 @@
         <form class="feed-form" action="#">
             <input required placeholder="Имя" type="text">
             <input required placeholder="Телефон" type="tel">
-            <button class="button">Регистрация</button>
+            <div class="button__wrapper">
+                <button class="button button__fix-six">Регистрация</button>
+            </div>
         </form>
     </div>
 </section>
@@ -53,26 +55,13 @@
             Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
             "рыбой" для текстов на латинице с начала XVI века.
         </div>
-        <div class="service__box_time service__box_time__big">
-            Длительность услуги - 1 час
-        </div>
-        <div class="service__box_editor">  <!--кнопка редактор-->
-            <img src="img/editor.svg" alt="editor" class="editor_img">
-        </div>
-    </div>
-    <div class="service__box service__box__big">
-        <div class="service__box_tittle">
-            Маникюр
-        </div>
-        <div class="service__box_descr">
-            Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
-            "рыбой" для текстов на латинице с начала XVI века.
-        </div>
-        <div class="service__box_time service__box_time__big">
-            Длительность услуги - 1 час
-        </div>
-        <div class="service__box_editor">  <!--кнопка редактор-->
-            <img src="img/editor.svg" alt="editor" class="editor_img">
+        <div class="time-and-editor_wrapper">
+            <div class="service__box_time__big">
+                Длительность услуги - 1 час
+            </div>
+            <div class="service__box_editor">  <!--кнопка редактор-->
+                <img src="img/editor.svg" alt="editor" class="editor_img">
+            </div>
         </div>
     </div>
     <div class="service__box service__box__big">
@@ -83,17 +72,36 @@
             Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
             "рыбой" для текстов на латинице с начала XVI века.
         </div>
-        <div class="service__box_time service__box_time__big">
-            Длительность услуги - 1 час
+        <div class="time-and-editor_wrapper">
+            <div class="service__box_time__big">
+                Длительность услуги - 1 час
+            </div>
+            <div class="service__box_editor">  <!--кнопка редактор-->
+                <img src="img/editor.svg" alt="editor" class="editor_img">
+            </div>
         </div>
-        <div class="service__box_editor">  <!--кнопка редактор-->
-            <img src="img/editor.svg" alt="editor" class="editor_img">
+    </div>
+    <div class="service__box service__box__big">
+        <div class="service__box_tittle">
+            Маникюр
+        </div>
+        <div class="service__box_descr">
+            Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+            "рыбой" для текстов на латинице с начала XVI века.
+        </div>
+        <div class="time-and-editor_wrapper">
+            <div class="service__box_time__big">
+                Длительность услуги - 1 час
+            </div>
+            <div class="service__box_editor">  <!--кнопка редактор-->
+                <img src="img/editor.svg" alt="editor" class="editor_img">
+            </div>
         </div>
     </div>
 
-                <div class="add_service">
-                    <img src="img/add.svg" alt="add" class="plus_img">   <!--ПЛЮС-->
-                </div>
+    <div class="add_service">
+        <img src="img/add.svg" alt="add" class="plus_img">   <!--ПЛЮС-->
+    </div>
 
 
     <button class="button button__mt40px">Дальше</button>
@@ -225,7 +233,7 @@
         <form class="feed-form feed-form_small" action="#">
             <input required placeholder="Имя" type="text">
             <input required placeholder="Телефон" type="tel">
-            <button class="button button_small">записаться</button>
+            <button class="button button__fix-six">записаться</button>
         </form>
     </div>
 
@@ -335,11 +343,59 @@
             Круглые аватарки
         -->
 
-
-        <button class="button button__main-page">Попробовать бесплатно</button>
         <div class="white-bg"></div>
+        <button class="button button__main-page">Попробовать бесплатно</button>
     </div>
+</section>
 
+<section class="instagram">
+
+    <div class="tittle">Удобство записи</div>
+    <div class="tittle__sub">Ваша собственная страница и <br> ссылка для БИО в Инстаграм</div>
+
+    <div class="instagram__wrapper">
+        <div class="instagram__wrapper_tittle">hello master</div>
+        <div class="instagram__wrapper__followers_image">
+            <img src="img/instavatar.svg" alt="avatar" class="img__inst-avatar">
+            <!--
+                        подписчики в инстаграм
+            -->
+            <div class="stat_and_button_wrapper">
+                <div class="stat_wrapper">
+                    <div class="stat">
+                        <div class="digits">300</div>
+                        <div class="digits_under">posts</div>
+                    </div>
+                    <div class="stat">
+                        <div class="digits">140k</div>
+                        <div class="digits_under">followers</div>
+
+                    </div>
+                    <div class="stat">
+                        <div class="digits">200</div>
+                        <div class="digits_under">following</div>
+                    </div>
+                </div>
+                <!--
+        //кнопка инстаграма
+-->
+                <div class="instagram-buttons__wrapper">
+                    <button class="instagram-button">Follow</button>
+                    <button class="instagram-button__small">
+                        <img src="img/svgdown.svg" alt="down" class="svg_down">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="instagram__descr">
+            <div class="instagram__descr_name">Hello master</div>
+            <div class="instagram__descr_descr">Best for your buisnes</div>
+            <div class="instagram__descr_link">www.hellomaster.com/your_name</div>
+            <div class="instagram__descr_country">Russia, Moscow</div>
+        </div>
+    </div>
+    <div class="tittle__inst">2 недели бесплатной подписки со <br> всеми доступными функциями</div>
+    <button class="button button__inst">Попробовать бесплатно</button>
 
 </section>
 

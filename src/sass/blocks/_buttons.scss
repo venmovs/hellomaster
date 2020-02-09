@@ -2,7 +2,7 @@
 /*Кнопки*/
 
 .button{
-  width: calc(100% - 20px);
+/*
   color: #ffffff;
   font-size: 10px;
   font-weight: 700;
@@ -15,12 +15,42 @@
   box-shadow: -5px -5px 8px rgba(255, 255, 255, 0.4), 4px 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   margin: 10px auto 0;
-  z-index: 1;
-  border: none;
+  z-index: 1;*/
+
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  width: calc(100% - 20px);
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 30px;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: -5px -5px 8px rgba(255, 255, 255, 0.4), 4px 4px 8px rgba(0, 0, 0, 0.3);
+  $border: 1px;
+  color: #FFF;
+  background: linear-gradient(90deg, #FF7A00 0%, #FF421F 100%);
+  background-clip: padding-box;
+  border: solid $border transparent;
+  border-radius: 30px;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -$border;
+    border-radius: inherit;
+    background: linear-gradient(to right, #FF421F, #DB1B0A);
+  }
   &:focus{
     outline: none;
   }
-  &_small{
+  &__fix-six{
     width: 100%;
   }
   &_blue{
@@ -30,10 +60,12 @@
   &__main-page{
     position: absolute;
     bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    z-index: 2;
   }
   &__mt40px{
     margin-top: 60px;
   }
+  &__inst{
+    width: 300px;
   }
+}

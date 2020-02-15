@@ -1,0 +1,52 @@
+.facilities{
+  height: 100vh;
+}
+
+.step__wrapper{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+  height: 52px;
+  margin: 20px auto 0;
+  background: linear-gradient(90deg, #D7E6F0 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.step_dig{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  background-blend-mode: lighten;
+  position: absolute;
+  left: -10%;
+  box-shadow: -5px -5px 8px rgba(255, 255, 255, 0.4), 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.step_tittle{
+  width: 100%;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 13px;
+  color: #000000;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  top: 40%;
+}
+
+.step_img{
+  position: absolute;
+  right: 5px;
+  top: 40%;
+}
+
+.ar_down{
+  display: block;
+  margin: 20px auto 0;
+}

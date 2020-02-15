@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
-
+<body>
 <!--РЕГИСТРАЦИЯ-->
 
 <section class="registration">
@@ -155,16 +155,13 @@
 ЛИЧНЫЙ КАБИНЕТ
 -->
 
-<!--<section class="cabinet">
-    <div class="tittle">личный кабинет</div>
-    <button class="button button_blue">услуги</button>
-    <button class="button button_blue">профиль</button>
-    <button class="button button_blue">записи</button>
-    <div class="cabinet__link">
-        <img src="img/copy.png" alt="copy" class="cabinet__copy">
-        <a class="cabinet__a" href="#">скопировать ссылку</a>
+<section class="cabinet">
+    <div class="cabinet_wrapper">
+        <div class="tittle">Личный кабинет</div>
+        <div class="tittle__sub">какой-то текст</div>
+        .cabinet_wrapper__changer
     </div>
-</section>-->
+</section>
 
 <!--
 ВЫБОР ВРЕМЕНИ
@@ -232,9 +229,9 @@
         -->
     </div>
 
-<!--
-    2 ой блок на другое число
--->
+    <!--
+        2 ой блок на другое число
+    -->
 
     <div class="sign__data">28 декабря, понедельник</div>
     <div class="sign__wrapper">
@@ -286,13 +283,13 @@
 
     <div class="sign__wrapper sign__wrapper__hidden ">
 
-    <div class="form-button-wrapper__active ">
-        <form class="feed-form feed-form_small" action="#">
-            <input required placeholder="Имя" type="text">
-            <input required placeholder="Телефон" type="tel">
-            <button class="button button__fix-six">записаться</button>
-        </form>
-    </div>
+        <div class="form-button-wrapper__active ">
+            <form class="feed-form feed-form_small" action="#">
+                <input required placeholder="Имя" type="text">
+                <input required placeholder="Телефон" type="tel">
+                <button class="button button__fix-six">записаться</button>
+            </form>
+        </div>
     </div>
 </section>
 
@@ -403,6 +400,44 @@
         <div class="white-bg"></div>
         <button class="button button__main-page">Попробовать бесплатно</button>
     </div>
+</section>
+
+<section class="facilities">
+
+    <div class="tittle">Удобство записи</div>
+    <div class="tittle__sub">Всего три нажатия для записи</div>
+
+    <!--
+        1 шаг
+    -->
+    <div class="step__wrapper">
+        <div class="step_dig">1</div>
+        <div class="step_tittle">Выбор ваших услуг</div>
+        <img src="img/choose.svg" alt="choose" class="step_img">
+    </div>
+
+    <img src="img/arowdown.svg" alt="down" class="ar_down"> <!--стрелка вниз-->
+    <!--
+        2 шаг
+    -->
+    <div class="step__wrapper">
+        <div class="step_dig">2</div>
+        <div class="step_tittle">Выбор времени</div>
+        <img src="img/calenadar.svg" alt="calendar" class="step_img">
+    </div>
+
+    <img src="img/arowdown.svg" alt="down" class="ar_down"> <!--стрелка вниз-->
+
+    <!--
+    3 шаг
+    -->
+    <div class="step__wrapper">
+        <div class="step_dig">3</div>
+        <div class="step_tittle">Ввод номера телефона</div>
+        <img src="img/phone.svg" alt="phone" class="step_img">
+    </div>
+
+
 </section>
 
 <section class="instagram">
